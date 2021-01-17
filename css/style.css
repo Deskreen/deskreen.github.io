@@ -47,7 +47,7 @@ h5 {
 }
 
 p {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 p.intro {
@@ -294,6 +294,10 @@ header .intro-text {
 	background: #f6f6f6;
 }
 
+.feature-with-icon {
+	height: 300px;
+}
+
 #features .icon-features {
 	font-size: 38px;
 	margin-bottom: 20px;
@@ -430,6 +434,10 @@ header .intro-text {
 	margin: 0;
 }
 
+.howto-step-guide {
+	font-size: 18px;
+}
+
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -503,7 +511,7 @@ header .intro-text {
 
 .testimonial-content p {
 	margin-bottom: 0;
-	font-size: 14px;
+	font-size: 20px;
 	font-style: italic;
 }
 
