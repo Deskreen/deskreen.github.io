@@ -210,6 +210,7 @@ hr {
 	transition: all 0.5s linear;
 	border: 0;
 	margin-right: 5px;
+	margin-bottom: 5px;
 }
 
 .btn-custom:hover,
@@ -739,6 +740,10 @@ label {
 	border-radius: 1000px;
 }
 
+#team-open-source-icon {
+	height: 280px;
+}
+
 .warning-blockquote {
 	border-left-color: rgb(254, 192, 47);
 	background-color: rgb(254, 192, 47, 0.2);
@@ -761,6 +766,12 @@ label {
 		padding-left: 0px;
 	}
 	
+}
+
+@media (max-width: 470px) {
+	.feature-with-icon {
+		height: 430px;
+	}
 }
 
 .custom-hr {
