@@ -758,14 +758,16 @@ label {
 	#deskreen-name-navbar {
 		display: none;
 	}
+
 	#navbar-brand-with-donate-button {
 		width: 220px;
 		padding-left: 0px;
 	}
-	#menu > div {
+
+	#menu>div {
 		padding-left: 0px;
 	}
-	
+
 }
 
 @media (max-width: 470px) {
@@ -811,7 +813,13 @@ label {
 	z-index: 1000 !important;
 }
 
-.goals-list > li > p {
+.goals-list>li>p {
 	font-size: 20px;
 	/* color: red; */
+}
+
+.donate-opencollective-icon {
+	-ms-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
