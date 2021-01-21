@@ -113,13 +113,13 @@ $("document").ready(function () {
     window.open("https://www.patreon.com/deskreen/", "_blank");
     win.focus();
   });
-  // var donateOpencollectiveBtnInContributeSection = document.getElementById(
-  //   "donate-opencollective-button-contribute-section"
-  // );
-  // donateOpencollectiveBtnInContributeSection.addEventListener("click", function () {
-  //   window.open("https://opencollective.com/deskreen", "_blank");
-  //   win.focus();
-  // });
+  var contributeOnGithubBtnInContributeSection = document.getElementById(
+    "contribute-on-contribute-section"
+  );
+  contributeOnGithubBtnInContributeSection.addEventListener("click", function () {
+    window.open("https://github.com/pavlobu/deskreen", "_blank");
+    win.focus();
+  });
   
 
   var pavlobuCopyright = document.getElementById("pavlobu-copyright");
