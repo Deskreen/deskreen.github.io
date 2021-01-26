@@ -791,8 +791,8 @@ label {
 	content: "";
 	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
 	height: 4px;
-	width: 60px;
-	top: 20;
+	width: 100px;
+	top: 13;
 	left: 15;
 	margin-top: 10px;
 	margin-bottom: 10px;
