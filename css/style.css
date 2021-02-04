@@ -169,6 +169,10 @@ hr {
 	background-color: #608dfd;
 }
 
+.navbar-collapse.collapse.in {
+	min-height: 400px;
+}
+
 .section-title {
 	margin-bottom: 30px;
 }
