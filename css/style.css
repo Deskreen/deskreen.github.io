@@ -191,6 +191,16 @@ hr {
 	left: 50%;
 }
 
+.section-title-faq h2::after {
+	position: absolute;
+	content: "";
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+
 .section-title p {
 	font-size: 18px;
 }
@@ -421,7 +431,7 @@ header .intro-text {
 }
 
 /* Howtos Section */
-#howtos {
+#howtos, #faq {
 	padding: 100px 0;
 }
 
@@ -807,6 +817,15 @@ label {
 	left: 15; */
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.custom-hr-blue-how-to-faq {
+	content: "";
+	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	height: 4px;
+	width: 60px;
+	margin-top: 20px;
+	margin-bottom: 110px;
 }
 
 .github-fork-ribbon-wrapper {
