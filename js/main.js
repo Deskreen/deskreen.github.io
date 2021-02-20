@@ -45,11 +45,9 @@ function main() {
     forkMeOnGithubRibbonAdjustPosition();
 
     $("a.page-scroll").click(function (e) {
-
-      var isMoreEdgeNeeded = 
-        $(e.currentTarget).is("#link-to-second-screen-demo-video")
-        ||
-        $(e.currentTarget).is("#link-to-what-is-display-dummy-plug")
+      var isMoreEdgeNeeded =
+        $(e.currentTarget).is("#link-to-second-screen-demo-video") ||
+        $(e.currentTarget).is("#link-to-what-is-display-dummy-plug");
       var minusOnTop = isMoreEdgeNeeded ? 120 : 20;
       if (
         location.pathname.replace(/^\//, "") ==
@@ -101,6 +99,10 @@ function main() {
 $("document").ready(function () {
   main();
 
+  var langSwitchOverlayElement = document.getElementById(
+    "language-switch-overlay"
+  );
+  var langSwitchElement = document.getElementById("language-switch");
   var donatePatreonBtn = document.getElementById("donate-patreon-button");
   donatePatreonBtn.addEventListener("click", function () {
     window.open("https://www.patreon.com/deskreen/", "_blank");
@@ -116,12 +118,30 @@ $("document").ready(function () {
   var contributeOnGithubBtnInContributeSection = document.getElementById(
     "contribute-on-contribute-section"
   );
-  contributeOnGithubBtnInContributeSection.addEventListener("click", function () {
-    window.open("https://github.com/pavlobu/deskreen", "_blank");
-    win.focus();
+  contributeOnGithubBtnInContributeSection.addEventListener(
+    "click",
+    function () {
+      window.open("https://github.com/pavlobu/deskreen", "_blank");
+      win.focus();
+    }
+  );
+
+  langSwitchOverlayElement.addEventListener("click", function () {
+    langSwitchOverlayElement.style.display = "none";
+    langSwitchElement.style.display = "none";
   });
-  
 
   var pavlobuCopyright = document.getElementById("pavlobu-copyright");
-  pavlobuCopyright.innerHTML = pavlobuCopyright.innerHTML + " " + new Date().getFullYear()
+  pavlobuCopyright.innerHTML =
+    pavlobuCopyright.innerHTML + " " + new Date().getFullYear();
+
+  var toggleLanguageSwitch = document.getElementById(
+    "open-toggle-language-switch"
+  );
+  toggleLanguageSwitch.addEventListener("click", function (e) {
+    e.preventDefault();
+    console.log('open switch');
+    langSwitchElement.style.display = "block";
+    langSwitchOverlayElement.style.display = "block";
+  });
 });

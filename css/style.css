@@ -116,7 +116,7 @@ hr {
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
-	margin: 9px 20px 0 20px;
+	margin: 9px 0px 0 20px;
 }
 
 #menu.navbar-default .navbar-nav>li>a:after {
@@ -170,7 +170,7 @@ hr {
 }
 
 .navbar-collapse.collapse.in {
-	min-height: 400px;
+	min-height: 450px;
 }
 
 .section-title {
@@ -226,6 +226,10 @@ hr {
 	margin-right: 5px;
 	margin-bottom: 5px;
 }
+
+/* #donate-patreon-button {
+	background-image: linear-gradient(to right, #ff5e00 0%, #f8d300 100%);
+} */
 
 .btn-custom:hover,
 .btn-custom:focus,
@@ -311,7 +315,7 @@ header .intro-text {
 }
 
 .feature-with-icon {
-	height: 300px;
+	height: 350px;
 }
 
 #features .icon-features {
@@ -435,7 +439,8 @@ header .intro-text {
 }
 
 /* Howtos Section */
-#howtos, #faq {
+#howtos,
+#faq {
 	padding: 100px 0;
 }
 
@@ -768,6 +773,12 @@ label {
 	background-color: rgb(99, 222, 37, 0.2);
 }
 
+#deskreen-name-navbar {
+	color: black;
+	font-weight: 600;
+	font-size: 25px;
+}
+
 @media (max-width: 1361px) {
 	#deskreen-name-navbar {
 		display: none;
@@ -846,3 +857,67 @@ label {
 	-webkit-transform: rotate(360deg);
 	transform: rotate(360deg);
 }
+
+#open-toggle-language-switch:hover {
+	background-color: rgba(0, 0, 0, .2) !important;
+}
+
+#open-toggle-language-switch>div>span>img {
+	margin: 0 !important;
+	width: 50px !important;
+	height: 50px !important;
+	transform: translate(-7px, -7px);
+}
+
+.contributor-name-decor {
+	color: #009fff;
+}
+
+/* Bootstrap navbar collapse on smaller screen START */
+@media (max-width: 1126px) {
+	.navbar-header {
+		float: none;
+	}
+
+	.navbar-left,
+	.navbar-right {
+		float: none !important;
+	}
+
+	.navbar-toggle {
+		display: block;
+	}
+
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	}
+
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+
+	.navbar-nav {
+		float: none !important;
+		margin-top: 7.5px;
+	}
+
+	.navbar-nav>li {
+		float: none;
+	}
+
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.collapse.in {
+		display: block !important;
+	}
+}
+/* Bootstrap navbar collapse on smaller screen END */
