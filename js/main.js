@@ -33,8 +33,9 @@ function initOnWindowResize() {
 function forkMeOnGithubRibbonAdjustPosition() {
   var element = document.getElementById("menu");
   var y = element.getBoundingClientRect().bottom;
-  var element = document.getElementById("fork-me-on-github");
-  element.style.transform = "translateY(" + y + "px)";
+  element = document.getElementById("fork-me-on-github");
+  element.style.transform = "translate(" + (window.innerWidth - element.getBoundingClientRect().width) + "px, " + y + "px)";
+  console.log('element.getBoundingClientRect().width', element.getBoundingClientRect().width);
 }
 
 function main() {
