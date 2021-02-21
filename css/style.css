@@ -5,17 +5,13 @@ html {
 	-webkit-font-smoothing: antialiased !important;
 	color: #777;
 	font-weight: 400;
-	max-width: 100vw !important;
+	width: 100% !important;
 	height: 100% !important;
-	width: 100vw !important;
-	overflow-x: hidden !important; /* вот это ломает автоскрытие навигационной панели. но без этого айфон глючит с out of bounds behavior */
-
 }
 
 body {
-	overflow-x: hidden !important;
+	overflow-x: hidden;
 	padding-top: 0 !important;
-	max-width: 100vw !important;
 }
 
 h2,
