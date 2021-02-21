@@ -33,8 +33,9 @@ function initOnWindowResize() {
 function forkMeOnGithubRibbonAdjustPosition() {
   var element = document.getElementById("menu");
   var y = element.getBoundingClientRect().bottom;
-  var element = document.getElementById("fork-me-on-github");
-  element.style.transform = "translateY(" + y + "px)";
+  var headerElement = document.getElementById("header");
+  element = document.getElementById("fork-me-on-github");
+  element.style.transform = "translate(" + (headerElement.getBoundingClientRect().width - element.getBoundingClientRect().width) + "px, " + y + "px)";
 }
 
 function main() {
@@ -75,7 +76,7 @@ function main() {
       offset: 80,
     });
 
-    navbarAutohideWhenBurgermenuDisplayed();
+    // navbarAutohideWhenBurgermenuDisplayed();
 
     // Hide nav on click
     $(document).ready(function (e) {

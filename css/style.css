@@ -7,6 +7,20 @@ html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	max-width: 100% !important;
+
+}
+
+html::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
 }
 
 body {
@@ -920,4 +934,5 @@ label {
 		display: block !important;
 	}
 }
+
 /* Bootstrap navbar collapse on smaller screen END */
