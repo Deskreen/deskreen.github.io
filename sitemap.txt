@@ -2,6 +2,8 @@ https://deskreen.com/
 https://deskreen.com/?/lang-en
 https://deskreen.com/?/lang-ua
 https://deskreen.com/?/lang-ru
+https://deskreen.com/?/lang-zh
 https://deskreen.com/?/lang-en/deskreen-privacy
 https://deskreen.com/?/lang-ru/deskreen-privacy
 https://deskreen.com/?/lang-ua/deskreen-privacy
+https://deskreen.com/?/lang-zh/deskreen-privacy
