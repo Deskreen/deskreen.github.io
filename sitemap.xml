@@ -71,8 +71,7 @@
                hreflang="es"
                href="https://deskreen.com/?/lang-es"/>
   </url>
-  </url>
-    <url>
+  <url>
     <loc>https://deskreen.com/?/lang-ru</loc>
     <xhtml:link 
                rel="alternate"
@@ -94,7 +93,6 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es"/>
-  </url>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-zh_CN</loc>
@@ -234,7 +232,7 @@
                hreflang="es"
                href="https://deskreen.com/?/lang-es/deskreen-privacy"/>
   </url>
-<url>
+  <url>
     <loc>https://deskreen.com/?/lang-es/deskreen-privacy</loc>
     <xhtml:link 
                rel="alternate"
