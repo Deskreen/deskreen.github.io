@@ -5,9 +5,13 @@ https://deskreen.com/?/lang-ru
 https://deskreen.com/?/lang-zh_CN
 https://deskreen.com/?/lang-zh_TW
 https://deskreen.com/?/lang-es
+https://deskreen.com/?/lang-de
+https://deskreen.com/?/lang-da
 https://deskreen.com/?/lang-en/deskreen-privacy
 https://deskreen.com/?/lang-ru/deskreen-privacy
 https://deskreen.com/?/lang-ua/deskreen-privacy
 https://deskreen.com/?/lang-zh_CN/deskreen-privacy
 https://deskreen.com/?/lang-zh_TW/deskreen-privacy
 https://deskreen.com/?/lang-es/deskreen-privacy
+https://deskreen.com/?/lang-de/deskreen-privacy
+https://deskreen.com/?/lang-da/deskreen-privacy
