@@ -141,7 +141,6 @@ $("document").ready(function () {
   );
   toggleLanguageSwitch.addEventListener("click", function (e) {
     e.preventDefault();
-    console.log('open switch');
     langSwitchElement.style.display = "block";
     langSwitchOverlayElement.style.display = "block";
   });

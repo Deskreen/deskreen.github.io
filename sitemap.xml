@@ -23,6 +23,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="de"
+               href="https://deskreen.com/"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="da"
+               href="https://deskreen.com/"/>
 
   </url>
   <url>
@@ -47,6 +55,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="de"
+               href="https://deskreen.com/?/lang-de"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="da"
+               href="https://deskreen.com/?/lang-da"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-ua</loc>
@@ -70,6 +86,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="de"
+               href="https://deskreen.com/?/lang-de"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="da"
+               href="https://deskreen.com/?/lang-da"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-ru</loc>
@@ -93,6 +117,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="de"
+               href="https://deskreen.com/?/lang-de"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="da"
+               href="https://deskreen.com/?/lang-da"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-zh_CN</loc>
@@ -116,6 +148,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="de"
+               href="https://deskreen.com/?/lang-de"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="da"
+               href="https://deskreen.com/?/lang-da"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-es</loc>
@@ -139,6 +179,76 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="de"
+               href="https://deskreen.com/?/lang-de"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="da"
+               href="https://deskreen.com/?/lang-da"/>
+  </url>
+  <url>
+    <loc>https://deskreen.com/?/lang-de</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="https://deskreen.com/?/lang-en"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="uk"
+               href="https://deskreen.com/?/lang-ua"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="https://deskreen.com/?/lang-ru"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="zh"
+               href="https://deskreen.com/?/lang-zh_CN"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="es"
+               href="https://deskreen.com/?/lang-es"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="de"
+               href="https://deskreen.com/?/lang-de"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="da"
+               href="https://deskreen.com/?/lang-da"/>
+  </url>
+  <url>
+    <loc>https://deskreen.com/?/lang-da</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="https://deskreen.com/?/lang-en"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="uk"
+               href="https://deskreen.com/?/lang-ua"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="https://deskreen.com/?/lang-ru"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="zh"
+               href="https://deskreen.com/?/lang-zh_CN"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="es"
+               href="https://deskreen.com/?/lang-es"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="de"
+               href="https://deskreen.com/?/lang-de"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="da"
+               href="https://deskreen.com/?/lang-da"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-en/deskreen-privacy</loc>
@@ -162,6 +272,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="de"
+            href="https://deskreen.com/?/lang-de/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="da"
+            href="https://deskreen.com/?/lang-da/deskreen-privacy"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-ru/deskreen-privacy</loc>
@@ -185,6 +303,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="de"
+            href="https://deskreen.com/?/lang-de/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="da"
+            href="https://deskreen.com/?/lang-da/deskreen-privacy"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-ua/deskreen-privacy</loc>
@@ -208,6 +334,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="de"
+            href="https://deskreen.com/?/lang-de/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="da"
+            href="https://deskreen.com/?/lang-da/deskreen-privacy"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-zh_CN/deskreen-privacy</loc>
@@ -231,6 +365,14 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="de"
+            href="https://deskreen.com/?/lang-de/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="da"
+            href="https://deskreen.com/?/lang-da/deskreen-privacy"/>
   </url>
   <url>
     <loc>https://deskreen.com/?/lang-es/deskreen-privacy</loc>
@@ -254,6 +396,76 @@
                rel="alternate"
                hreflang="es"
                href="https://deskreen.com/?/lang-es/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="de"
+            href="https://deskreen.com/?/lang-de/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="da"
+            href="https://deskreen.com/?/lang-da/deskreen-privacy"/>
+  </url>
+  <url>
+    <loc>https://deskreen.com/?/lang-de/deskreen-privacy</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="https://deskreen.com/?/lang-en/deskreen-privacy"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="uk"
+               href="https://deskreen.com/?/lang-ua/deskreen-privacy"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="https://deskreen.com/?/lang-ru/deskreen-privacy"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="zh"
+               href="https://deskreen.com/?/lang-zh_CN/deskreen-privacy"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="es"
+               href="https://deskreen.com/?/lang-es/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="de"
+            href="https://deskreen.com/?/lang-de/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="da"
+            href="https://deskreen.com/?/lang-da/deskreen-privacy"/>
+  </url>
+  <url>
+    <loc>https://deskreen.com/?/lang-da/deskreen-privacy</loc>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="en"
+               href="https://deskreen.com/?/lang-en/deskreen-privacy"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="uk"
+               href="https://deskreen.com/?/lang-ua/deskreen-privacy"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="ru"
+               href="https://deskreen.com/?/lang-ru/deskreen-privacy"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="zh"
+               href="https://deskreen.com/?/lang-zh_CN/deskreen-privacy"/>
+    <xhtml:link 
+               rel="alternate"
+               hreflang="es"
+               href="https://deskreen.com/?/lang-es/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="de"
+            href="https://deskreen.com/?/lang-de/deskreen-privacy"/>
+    <xhtml:link 
+            rel="alternate"
+            hreflang="da"
+            href="https://deskreen.com/?/lang-da/deskreen-privacy"/>
   </url>
   
 </urlset>
