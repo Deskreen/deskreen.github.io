@@ -106,14 +106,16 @@ $("document").ready(function () {
   var langSwitchElement = document.getElementById("language-switch");
   var donatePatreonBtn = document.getElementById("donate-patreon-button");
   donatePatreonBtn.addEventListener("click", function () {
-    window.open("https://www.patreon.com/deskreen/", "_blank");
+    // window.open("https://www.patreon.com/deskreen/", "_blank");
+    window.open("https://twitter.com/Ukraine/status/1497294840110977024", "_blank");
     win.focus();
   });
   var donatePatreonBtnInContributeSection = document.getElementById(
     "donate-patreon-button-contribute-section"
   );
   donatePatreonBtnInContributeSection.addEventListener("click", function () {
-    window.open("https://www.patreon.com/deskreen/", "_blank");
+    // window.open("https://www.patreon.com/deskreen/", "_blank");
+    window.open("https://twitter.com/Ukraine/status/1497294840110977024", "_blank");
     win.focus();
   });
   var contributeOnGithubBtnInContributeSection = document.getElementById(
