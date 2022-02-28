@@ -322,6 +322,14 @@ header .intro-text {
 	text-align: center;
 }
 
+.ukraine-donate {
+	color: white;
+}
+
+.ukraine-donate-link {
+	color: rgb(0, 255, 255)
+}
+
 /* Features Section */
 #features {
 	padding: 100px 0;
