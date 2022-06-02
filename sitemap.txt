@@ -12,6 +12,8 @@ https://deskreen.com/?/lang-it
 https://deskreen.com/?/lang-ja
 https://deskreen.com/?/lang-fr
 https://deskreen.com/?/lang-fi
+https://deskreen.com/?/lang-sv
+https://deskreen.com/?/lang-nl
 https://deskreen.com/?/lang-en/deskreen-privacy
 https://deskreen.com/?/lang-ru/deskreen-privacy
 https://deskreen.com/?/lang-ua/deskreen-privacy
@@ -25,3 +27,5 @@ https://deskreen.com/?/lang-it/deskreen-privacy
 https://deskreen.com/?/lang-js/deskreen-privacy
 https://deskreen.com/?/lang-fr/deskreen-privacy
 https://deskreen.com/?/lang-fi/deskreen-privacy
+https://deskreen.com/?/lang-sv/deskreen-privacy
+https://deskreen.com/?/lang-nl/deskreen-privacy
