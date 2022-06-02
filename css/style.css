@@ -8,7 +8,7 @@ html {
 	width: 100% !important;
 	height: 100% !important;
 	max-width: 100% !important;
-
+	overflow-x: hidden !important;
 }
 
 html::-webkit-scrollbar {
@@ -72,6 +72,7 @@ p.intro {
 a {
 	color: #608dfd;
 	font-weight: 400;
+	word-break: break-all;
 }
 
 a:hover,
