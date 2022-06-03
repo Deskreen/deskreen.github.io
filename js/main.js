@@ -1,27 +1,3 @@
-function navbarAutohideWhenBurgermenuDisplayed() {
-  // add padding top to show content behind navbar
-  // $("body").css("padding-top", $(".navbar").outerHeight() + "px");
-
-  var last_scroll_top = 0;
-  $(window).on("scroll", function () {
-    if ($(".navbar-toggle").css("display") === "none") return;
-    console.log(" window.innerWidth;", window.innerWidth);
-    var scroll_top = $(this).scrollTop();
-    if (scroll_top < last_scroll_top) {
-      $(".smart-scroll").removeClass("scrolled-down").addClass("scrolled-up");
-      setTimeout(() => {
-        forkMeOnGithubRibbonAdjustPosition();
-      }, 700);
-    } else {
-      $(".smart-scroll").removeClass("scrolled-up").addClass("scrolled-down");
-      setTimeout(() => {
-        forkMeOnGithubRibbonAdjustPosition();
-      }, 700);
-    }
-    last_scroll_top = scroll_top;
-  });
-}
-
 function reportWindowSize() {
   forkMeOnGithubRibbonAdjustPosition();
 }
@@ -44,39 +20,6 @@ function main() {
 
     initOnWindowResize();
     forkMeOnGithubRibbonAdjustPosition();
-
-    $("a.page-scroll").click(function (e) {
-      var isMoreEdgeNeeded =
-        $(e.currentTarget).is("#link-to-second-screen-demo-video") ||
-        $(e.currentTarget).is("#link-to-what-is-display-dummy-plug");
-      var minusOnTop = isMoreEdgeNeeded ? 120 : 20;
-      if (
-        location.pathname.replace(/^\//, "") ==
-          this.pathname.replace(/^\//, "") &&
-        location.hostname == this.hostname
-      ) {
-        var target = $(this.hash);
-        target = target.length
-          ? target
-          : $("[name=" + this.hash.slice(1) + "]");
-        if (target.length) {
-          $("html,body").animate(
-            {
-              scrollTop: target.offset().top - minusOnTop,
-            },
-            900
-          );
-          return false;
-        }
-      }
-    });
-
-    $("body").scrollspy({
-      target: ".navbar-default",
-      offset: 80,
-    });
-
-    // navbarAutohideWhenBurgermenuDisplayed();
 
     // Hide nav on click
     $(document).ready(function (e) {
