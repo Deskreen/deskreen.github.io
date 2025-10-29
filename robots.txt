@@ -1,3 +1,57 @@
 # https://www.robotstxt.org/robotstxt.html
+# robots.txt for Deskreen Website
+# Supports all major search engines: Google, Bing, Yahoo, DuckDuckGo, Yandex, Baidu, etc.
+
+# Allow all user agents
 User-agent: *
-Disallow:
+
+# Disallow API routes and internal endpoints
+Disallow: /api/
+
+# Allow everything else
+Allow: /
+
+# Sitemap location
+Sitemap: https://deskreen.com/sitemap.xml
+
+# Additional crawl directives for popular search engines
+
+# Google (default behavior)
+User-agent: Googlebot
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo (uses Slurp)
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo (respects robots.txt)
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+
+# Sogou
+User-agent: Sogou
+Allow: /
+
+# Facebook crawler (if social media sharing is used)
+User-agent: FacebookExternalHit
+Allow: /
+
+# Twitter crawler (if social media sharing is used)
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn crawler (if social media sharing is used)
+User-agent: LinkedInBot
+Allow: /
+
