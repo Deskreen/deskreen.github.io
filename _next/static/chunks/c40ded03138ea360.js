@@ -1,5 +1,5 @@
 __turbopack_load_page_chunks__("/[localePref]/download", [
-  "static/chunks/000c220b71d6cd34.js",
+  "static/chunks/11a1293f11e7ebc9.js",
   "static/chunks/05589d6530d2f824.js",
   "static/chunks/26f5283417f17c7e.js",
   "static/chunks/0586410af3278ea7.js",
@@ -7,5 +7,5 @@ __turbopack_load_page_chunks__("/[localePref]/download", [
   "static/chunks/9375c7acc9785dff.js",
   "static/chunks/775426fc8d7de5c2.js",
   "static/chunks/e00660a034833307.js",
-  "static/chunks/turbopack-11cd1e756f53689c.js"
+  "static/chunks/turbopack-8a3866d74bb456ce.js"
 ])
