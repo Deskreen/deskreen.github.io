@@ -1,18 +1,18 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/8618186a5f4ffb83.js"
+    "static/chunks/38f7561f594f384a.js"
   ],
   "/404": [
     "static/chunks/60c80d62b1aacfde.js"
   ],
   "/[localePref]": [
-    "static/chunks/09d0f5a5e20c9bc4.js"
+    "static/chunks/a3b84b41f509eb0e.js"
   ],
   "/[localePref]/demos": [
     "static/chunks/446df392925895d0.js"
   ],
   "/[localePref]/download": [
-    "static/chunks/3506df9e1eee4fb2.js"
+    "static/chunks/17967a1879e5065a.js"
   ],
   "/[localePref]/faq": [
     "static/chunks/d4be802eb749e270.js"
@@ -36,7 +36,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/3ecc9d4464411259.js"
   ],
   "/download": [
-    "static/chunks/a773aa3cff0c1c99.js"
+    "static/chunks/8493c51a23908c2c.js"
   ],
   "/faq": [
     "static/chunks/1e714fe3911577d6.js"
