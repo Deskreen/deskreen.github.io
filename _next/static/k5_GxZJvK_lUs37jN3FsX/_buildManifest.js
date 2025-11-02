@@ -1,18 +1,18 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/eb0548f73edd2b9f.js"
+    "static/chunks/70fca82e773792cb.js"
   ],
   "/404": [
     "static/chunks/712b80eecc1948bc.js"
   ],
   "/[localePref]": [
-    "static/chunks/73d686a5a5e54be0.js"
+    "static/chunks/8dcab9f88bdc1c35.js"
   ],
   "/[localePref]/demos": [
-    "static/chunks/a6f3490bb65f5fb3.js"
+    "static/chunks/9f64ec79b7858c4a.js"
   ],
   "/[localePref]/download": [
-    "static/chunks/f674d7bf83e8fcc0.js"
+    "static/chunks/a6b076f1586e08c3.js"
   ],
   "/[localePref]/faq": [
     "static/chunks/723792cbb64d2e6b.js"
@@ -27,16 +27,16 @@ self.__BUILD_MANIFEST = {
     "static/chunks/68f8717be2888f23.js"
   ],
   "/[localePref]/ui": [
-    "static/chunks/e1fda45f4c69e36b.js"
+    "static/chunks/2857bdaa4acb3cf5.js"
   ],
   "/_error": [
     "static/chunks/d0c25b82642a16fe.js"
   ],
   "/demos": [
-    "static/chunks/ef6f6915eb6616c9.js"
+    "static/chunks/70753bde0242bf36.js"
   ],
   "/download": [
-    "static/chunks/aaa816095694335e.js"
+    "static/chunks/c5f0701d6ff332a5.js"
   ],
   "/faq": [
     "static/chunks/218b2ae7e34dd26f.js"
@@ -51,7 +51,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/20ad3dc33926206b.js"
   ],
   "/ui": [
-    "static/chunks/42b0e856e481cfd1.js"
+    "static/chunks/c6b5a30cc71b7da4.js"
   ],
   "__rewrites": {
     "afterFiles": [],
