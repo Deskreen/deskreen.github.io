@@ -32,13 +32,12 @@ jobs:
           
           # Append Ezoic content if available and valid
           if [ ! -f /tmp/ezoic-ads-empty ] && [ -s /tmp/ezoic-ads.txt ]; then
-            # Remove empty lines and append Ezoic content
-            grep -v '^[[:space:]]*$' /tmp/ezoic-ads.txt >> ads.txt
+            # Remove empty lines and append Ezoic content (|| true prevents failure if grep finds nothing)
+            grep -v '^[[:space:]]*$' /tmp/ezoic-ads.txt >> ads.txt || true
           fi
           
           # Remove duplicates while preserving order (Google AdSense line first)
-          awk '!seen[$0]++' ads.txt > /tmp/ads-tmp.txt
-          mv /tmp/ads-tmp.txt ads.txt
+          awk '!seen[$0]++' ads.txt > /tmp/ads-tmp.txt && mv /tmp/ads-tmp.txt ads.txt
 
       - name: Commit and push changes
         run: |
