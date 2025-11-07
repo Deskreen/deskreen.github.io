@@ -18,26 +18,27 @@ jobs:
 
       - name: Fetch Ezoic ads.txt
         run: |
-          curl -L -f -o /tmp/ezoic-ads.txt https://srv.adstxtmanager.com/19390/deskreen.com || echo "Failed to fetch Ezoic ads.txt"
-          if [ ! -s /tmp/ezoic-ads.txt ]; then
-            echo "Warning: Ezoic ads.txt is empty or failed to fetch"
-            exit 0
+          curl -L -o /tmp/ezoic-ads.txt https://srv.adstxtmanager.com/19390/deskreen.com || true
+          # Check if file is empty or contains error indicators
+          if [ ! -s /tmp/ezoic-ads.txt ] || grep -qi "404\|not found\|error" /tmp/ezoic-ads.txt 2>/dev/null; then
+            echo "Warning: Ezoic ads.txt is empty, not available, or contains errors"
+            touch /tmp/ezoic-ads-empty
           fi
 
-      - name: Read current ads.txt
+      - name: Build ads.txt
         run: |
-          if [ -f ads.txt ]; then
-            cat ads.txt > /tmp/current-ads.txt
-          else
-            touch /tmp/current-ads.txt
+          # Always start with Google AdSense line
+          echo "google.com, pub-1242335592927484, DIRECT, f08c47fec0942fa0" > ads.txt
+          
+          # Append Ezoic content if available and valid
+          if [ ! -f /tmp/ezoic-ads-empty ] && [ -s /tmp/ezoic-ads.txt ]; then
+            # Remove empty lines and append Ezoic content
+            grep -v '^[[:space:]]*$' /tmp/ezoic-ads.txt >> ads.txt
           fi
-
-      - name: Merge ads.txt files
-        run: |
-          # Combine both files, remove empty lines, remove duplicates while preserving order
-          cat /tmp/current-ads.txt /tmp/ezoic-ads.txt | \
-            grep -v '^[[:space:]]*$' | \
-            awk '!seen[$0]++' > ads.txt
+          
+          # Remove duplicates while preserving order (Google AdSense line first)
+          awk '!seen[$0]++' ads.txt > /tmp/ads-tmp.txt
+          mv /tmp/ads-tmp.txt ads.txt
 
       - name: Commit and push changes
         run: |
