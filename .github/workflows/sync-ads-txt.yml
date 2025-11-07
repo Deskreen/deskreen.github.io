@@ -1,0 +1,55 @@
+name: Sync ads.txt from Ezoic
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  sync-ads-txt:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Ezoic ads.txt
+        run: |
+          curl -L -f -o /tmp/ezoic-ads.txt https://srv.adstxtmanager.com/19390/deskreen.com || echo "Failed to fetch Ezoic ads.txt"
+          if [ ! -s /tmp/ezoic-ads.txt ]; then
+            echo "Warning: Ezoic ads.txt is empty or failed to fetch"
+            exit 0
+          fi
+
+      - name: Read current ads.txt
+        run: |
+          if [ -f ads.txt ]; then
+            cat ads.txt > /tmp/current-ads.txt
+          else
+            touch /tmp/current-ads.txt
+          fi
+
+      - name: Merge ads.txt files
+        run: |
+          # Combine both files, remove empty lines, remove duplicates while preserving order
+          cat /tmp/current-ads.txt /tmp/ezoic-ads.txt | \
+            grep -v '^[[:space:]]*$' | \
+            awk '!seen[$0]++' > ads.txt
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if git diff --quiet ads.txt; then
+            echo "No changes to ads.txt"
+            exit 0
+          fi
+          
+          git add ads.txt
+          git commit -m "chore: update ads.txt from Ezoic [skip ci]"
+          git push
+
