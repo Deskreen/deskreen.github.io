@@ -1,0 +1,11 @@
+__turbopack_load_page_chunks__("/[localePref]/download", [
+  "static/chunks/26179b517cb38c16.js",
+  "static/chunks/5385d7a91e466687.js",
+  "static/chunks/7c827604f430d8cd.js",
+  "static/chunks/f6348bcef77fc476.js",
+  "static/chunks/b96dbb0b8d83954b.js",
+  "static/chunks/ee572f92d5f1f713.js",
+  "static/chunks/75e252b653036c01.js",
+  "static/chunks/5d85c03bcffbd940.js",
+  "static/chunks/turbopack-15b373221f030611.js"
+])
