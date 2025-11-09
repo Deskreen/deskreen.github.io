@@ -24,7 +24,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/516ac57926818dc6.js"
   ],
   "/[localePref]/privacy": [
-    "static/chunks/0c57a8fad7581ab9.js"
+    "static/chunks/9e998efc0c861ea0.js"
   ],
   "/[localePref]/ui": [
     "static/chunks/eab7ec9d48172c83.js"
@@ -51,7 +51,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/c36d5a3076f44f13.js"
   ],
   "/privacy": [
-    "static/chunks/82447858578ecf15.js"
+    "static/chunks/f7f234ab18b3b304.js"
   ],
   "/ui": [
     "static/chunks/d2ee79f92b2484ff.js"
