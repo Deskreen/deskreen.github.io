@@ -12,22 +12,22 @@ self.__BUILD_MANIFEST = {
     "static/chunks/a80eefbdf9de1f9e.js"
   ],
   "/[localePref]/download": [
-    "static/chunks/c3df74217989afea.js"
+    "static/chunks/b293e0b6a077f216.js"
   ],
   "/[localePref]/faq": [
-    "static/chunks/64fc2320654a51bb.js"
+    "static/chunks/400d0149ded38f9e.js"
   ],
   "/[localePref]/features": [
     "static/chunks/1fb231126b875d4a.js"
   ],
   "/[localePref]/howto": [
-    "static/chunks/530a99b35a706980.js"
+    "static/chunks/1a80b7bb1d69c5a2.js"
   ],
   "/[localePref]/privacy": [
-    "static/chunks/b1a8accf90e4be9c.js"
+    "static/chunks/d1c250efd6a87a00.js"
   ],
   "/[localePref]/ui": [
-    "static/chunks/2bb6c275a3a2b380.js"
+    "static/chunks/a7500b553c7e5f74.js"
   ],
   "/[localePref]/watch/[videoId]": [
     "static/chunks/3e29f2abcd0ac343.js"
@@ -39,22 +39,22 @@ self.__BUILD_MANIFEST = {
     "static/chunks/072b21e769b6b692.js"
   ],
   "/download": [
-    "static/chunks/d1ac5859d6ec5f90.js"
+    "static/chunks/cd3ad84fdb8b2510.js"
   ],
   "/faq": [
-    "static/chunks/6df977e66413453f.js"
+    "static/chunks/f9b03bd89d7bcbc1.js"
   ],
   "/features": [
     "static/chunks/3e44c8d6c1fdb6b3.js"
   ],
   "/howto": [
-    "static/chunks/afcdcaf1d726109d.js"
+    "static/chunks/9d00521943b31594.js"
   ],
   "/privacy": [
-    "static/chunks/bfe1996c07acefa0.js"
+    "static/chunks/bd049546725fe354.js"
   ],
   "/ui": [
-    "static/chunks/b8c7ab214828ab89.js"
+    "static/chunks/aab30d8d6223bb00.js"
   ],
   "/watch/[videoId]": [
     "static/chunks/6cb2eb3465cd9449.js"
