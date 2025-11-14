@@ -6,31 +6,31 @@ self.__BUILD_MANIFEST = {
     "static/chunks/a086c252f8b0370a.js"
   ],
   "/[localePref]": [
-    "static/chunks/5f360ba912404ccc.js"
+    "static/chunks/ee02d3e3bf362902.js"
   ],
   "/[localePref]/demos": [
-    "static/chunks/db90e59d4799334b.js"
+    "static/chunks/c04119645a647d05.js"
   ],
   "/[localePref]/download": [
-    "static/chunks/6490c4552a0b06e1.js"
+    "static/chunks/0e21e22a51546b66.js"
   ],
   "/[localePref]/faq": [
-    "static/chunks/f88d3b9105f54f9b.js"
+    "static/chunks/126ed8090a478a22.js"
   ],
   "/[localePref]/features": [
-    "static/chunks/4cd5ec2d6e028dd7.js"
+    "static/chunks/b5e32adf90422455.js"
   ],
   "/[localePref]/howto": [
-    "static/chunks/06642aec7d7887ca.js"
+    "static/chunks/6982434b7d242970.js"
   ],
   "/[localePref]/privacy": [
-    "static/chunks/ee1bfaac95d122b6.js"
+    "static/chunks/2e9f8445c8593a23.js"
   ],
   "/[localePref]/ui": [
-    "static/chunks/049512d65b15b952.js"
+    "static/chunks/e843a7ddb68068a0.js"
   ],
   "/[localePref]/watch/[videoId]": [
-    "static/chunks/26279e892b68a5be.js"
+    "static/chunks/c7826d61d6d63f8e.js"
   ],
   "/_error": [
     "static/chunks/e4ed500e9efae035.js"

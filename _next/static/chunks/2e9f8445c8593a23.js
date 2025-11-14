@@ -7,7 +7,7 @@ __turbopack_load_page_chunks__("/[localePref]/privacy", [
   "static/chunks/7699608aa2c9b36d.js",
   "static/chunks/5d85c03bcffbd940.js",
   "static/chunks/7c827604f430d8cd.js",
-  "static/chunks/a87f12709635cbfb.js",
+  "static/chunks/023f7711a85ce4a5.js",
   "static/chunks/d0534a99ba990c43.js",
-  "static/chunks/turbopack-3333d4197874ae50.js"
+  "static/chunks/turbopack-b0104be741a38246.js"
 ])

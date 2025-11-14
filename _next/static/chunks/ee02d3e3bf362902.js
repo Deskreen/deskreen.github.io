@@ -9,7 +9,7 @@ __turbopack_load_page_chunks__("/[localePref]", [
   "static/chunks/2d01efa005a2883b.js",
   "static/chunks/96d61da0122d1818.js",
   "static/chunks/d0534a99ba990c43.js",
-  "static/chunks/a87f12709635cbfb.js",
+  "static/chunks/023f7711a85ce4a5.js",
   "static/chunks/7699608aa2c9b36d.js",
-  "static/chunks/turbopack-a481ca5065700815.js"
+  "static/chunks/turbopack-dbc33622ac274988.js"
 ])
