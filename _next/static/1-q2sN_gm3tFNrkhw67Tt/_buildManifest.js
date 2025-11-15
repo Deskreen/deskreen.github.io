@@ -12,7 +12,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/21a8e1d1caf03b8e.js"
   ],
   "/[localePref]/download": [
-    "static/chunks/ab024b840cf4f256.js"
+    "static/chunks/5cfba63076ceb324.js"
   ],
   "/[localePref]/faq": [
     "static/chunks/065f2fc6ab28cf31.js"
@@ -39,7 +39,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/c9ba7cb87b318305.js"
   ],
   "/download": [
-    "static/chunks/4b0e95b3ffe8abec.js"
+    "static/chunks/7d1aea7297269ad2.js"
   ],
   "/faq": [
     "static/chunks/bda97b3b90cf3668.js"
