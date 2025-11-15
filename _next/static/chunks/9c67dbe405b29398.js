@@ -8,9 +8,9 @@ __turbopack_load_page_chunks__("/[localePref]/download", [
   "static/chunks/84bb0a7fd3d62b1c.js",
   "static/chunks/d0534a99ba990c43.js",
   "static/chunks/5d85c03bcffbd940.js",
-  "static/chunks/468298f05bb7ab0f.js",
+  "static/chunks/762ac978772ccb21.js",
   "static/chunks/7c827604f430d8cd.js",
   "static/chunks/6ff6e1ad86fdd89c.js",
   "static/chunks/e051d3d1e0fbdcd9.js",
-  "static/chunks/turbopack-64080db4f7cfaec3.js"
+  "static/chunks/turbopack-bf56a0f4f9b15169.js"
 ])
