@@ -12,7 +12,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/21a8e1d1caf03b8e.js"
   ],
   "/[localePref]/download": [
-    "static/chunks/9c67dbe405b29398.js"
+    "static/chunks/ab024b840cf4f256.js"
   ],
   "/[localePref]/faq": [
     "static/chunks/065f2fc6ab28cf31.js"
@@ -27,7 +27,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/5f812407a1bdaee7.js"
   ],
   "/[localePref]/ui": [
-    "static/chunks/c69802a15b1f9d62.js"
+    "static/chunks/62febe5f094c6068.js"
   ],
   "/[localePref]/watch/[videoId]": [
     "static/chunks/0b09d915194b8e45.js"
@@ -39,7 +39,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/c9ba7cb87b318305.js"
   ],
   "/download": [
-    "static/chunks/04918115411412f7.js"
+    "static/chunks/4b0e95b3ffe8abec.js"
   ],
   "/faq": [
     "static/chunks/bda97b3b90cf3668.js"
@@ -54,7 +54,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/85866807878e717a.js"
   ],
   "/ui": [
-    "static/chunks/ff94f764edbea6e5.js"
+    "static/chunks/9d0b6cb0151618c2.js"
   ],
   "/watch/[videoId]": [
     "static/chunks/aa8e78d904db00ea.js"

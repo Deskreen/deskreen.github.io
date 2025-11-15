@@ -1,7 +1,7 @@
 __turbopack_load_page_chunks__("/ui", [
   "static/chunks/ae7f716099b73ebb.js",
   "static/chunks/ccf98e58a24e7232.js",
-  "static/chunks/6a2c7909b4305d2c.js",
+  "static/chunks/5e3661e1823e8a5b.js",
   "static/chunks/4382f658efc22246.js",
   "static/chunks/853de9ab9a0c8015.js",
   "static/chunks/43b5178cb3629948.js",
@@ -10,6 +10,6 @@ __turbopack_load_page_chunks__("/ui", [
   "static/chunks/84bb0a7fd3d62b1c.js",
   "static/chunks/d0534a99ba990c43.js",
   "static/chunks/f863f82e5957e740.js",
-  "static/chunks/6474e502d8bdace7.js",
-  "static/chunks/turbopack-dd62b583ed5a8fec.js"
+  "static/chunks/58b41240d14e8245.js",
+  "static/chunks/turbopack-617aee9d4cabe570.js"
 ])
