@@ -18,26 +18,7 @@ jobs:
 
       - name: Fetch Ezoic ads.txt
         run: |
-          curl -L -o /tmp/ezoic-ads.txt https://srv.adstxtmanager.com/19390/deskreen.com || true
-          # Check if file is empty or contains error indicators
-          if [ ! -s /tmp/ezoic-ads.txt ] || grep -qi "404\|not found\|error" /tmp/ezoic-ads.txt 2>/dev/null; then
-            echo "Warning: Ezoic ads.txt is empty, not available, or contains errors"
-            touch /tmp/ezoic-ads-empty
-          fi
-
-      - name: Build ads.txt
-        run: |
-          # Use Ezoic ads.txt directly if available and valid
-          if [ ! -f /tmp/ezoic-ads-empty ] && [ -s /tmp/ezoic-ads.txt ]; then
-            # Remove empty lines and use Ezoic content
-            grep -v '^[[:space:]]*$' /tmp/ezoic-ads.txt > ads.txt || true
-          else
-            echo "Error: Ezoic ads.txt is not available"
-            exit 1
-          fi
-          
-          # Remove duplicates while preserving order
-          awk '!seen[$0]++' ads.txt > /tmp/ads-tmp.txt && mv /tmp/ads-tmp.txt ads.txt
+          curl -L https://srv.adstxtmanager.com/80720/deskreen.com > ads.txt
 
       - name: Commit and push changes
         run: |
