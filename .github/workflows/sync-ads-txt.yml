@@ -27,16 +27,16 @@ jobs:
 
       - name: Build ads.txt
         run: |
-          # Always start with Google AdSense line
-          echo "google.com, pub-1242335592927484, DIRECT, f08c47fec0942fa0" > ads.txt
-          
-          # Append Ezoic content if available and valid
+          # Use Ezoic ads.txt directly if available and valid
           if [ ! -f /tmp/ezoic-ads-empty ] && [ -s /tmp/ezoic-ads.txt ]; then
-            # Remove empty lines and append Ezoic content (|| true prevents failure if grep finds nothing)
-            grep -v '^[[:space:]]*$' /tmp/ezoic-ads.txt >> ads.txt || true
+            # Remove empty lines and use Ezoic content
+            grep -v '^[[:space:]]*$' /tmp/ezoic-ads.txt > ads.txt || true
+          else
+            echo "Error: Ezoic ads.txt is not available"
+            exit 1
           fi
           
-          # Remove duplicates while preserving order (Google AdSense line first)
+          # Remove duplicates while preserving order
           awk '!seen[$0]++' ads.txt > /tmp/ads-tmp.txt && mv /tmp/ads-tmp.txt ads.txt
 
       - name: Commit and push changes
