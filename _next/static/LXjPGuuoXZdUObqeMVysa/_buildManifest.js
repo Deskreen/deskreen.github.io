@@ -33,10 +33,10 @@ self.__BUILD_MANIFEST = {
     "static/chunks/65973c4184aec78a.js"
   ],
   "/[localePref]/privacy": [
-    "static/chunks/5c82dc9500560f3e.js"
+    "static/chunks/afb2d7283efab46e.js"
   ],
   "/[localePref]/privacy-policy": [
-    "static/chunks/f8e327645de6e6b9.js"
+    "static/chunks/0502c07fb1d3c5f3.js"
   ],
   "/[localePref]/ui": [
     "static/chunks/5d91b2c50cb998ff.js"
@@ -72,10 +72,10 @@ self.__BUILD_MANIFEST = {
     "static/chunks/096f1aef51da6fba.js"
   ],
   "/privacy": [
-    "static/chunks/b76743bf1ada6af3.js"
+    "static/chunks/24c7912d0f76a286.js"
   ],
   "/privacy-policy": [
-    "static/chunks/597f3456dee53dec.js"
+    "static/chunks/3c340abed221f7a7.js"
   ],
   "/ui": [
     "static/chunks/0a2a6e07cb86f3c7.js"

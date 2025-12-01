@@ -1,7 +1,7 @@
-__turbopack_load_page_chunks__("/[localePref]/privacy", [
+__turbopack_load_page_chunks__("/[localePref]/privacy-policy", [
   "static/chunks/c670200f12bcd43f.js",
   "static/chunks/fc54b557ce844064.js",
-  "static/chunks/dcc828dbc866c98c.js",
+  "static/chunks/83db3bc2aac3416d.js",
   "static/chunks/5a4b4b84ff4efb45.js",
   "static/chunks/4a9870863fdb239e.js",
   "static/chunks/d18f4a9097731fda.js",
@@ -11,5 +11,5 @@ __turbopack_load_page_chunks__("/[localePref]/privacy", [
   "static/chunks/c2a0d09a7ccf03da.js",
   "static/chunks/196d59549bc29970.js",
   "static/chunks/6ff6e1ad86fdd89c.js",
-  "static/chunks/turbopack-f5f70f2e095c8033.js"
+  "static/chunks/turbopack-c3b68c2be21acaae.js"
 ])
