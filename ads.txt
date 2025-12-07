@@ -25,7 +25,6 @@ smaato.com, 1100057294, DIRECT
 inmobi.com, 71caebe9af304bfea11081c983d966cc, DIRECT, 83e75a7ae333ca9d
 sonobi.com, b9b6d1ca00, RESELLER, d1a215d9eb5aee9e
 adingo.jp, 30997, RESELLER
-lijit.com, 522802-eb, DIRECT, fafdf38b16bf6b2b
 # 10015
 openx.com, 540310748, DIRECT, 6a698e2ec38604c6
 openx.com, 537121708, DIRECT, 6a698e2ec38604c6
