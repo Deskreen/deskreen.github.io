@@ -12,6 +12,7 @@ google.com, pub-6644558441501035, DIRECT, f08c47fec0942fa0
 google.com, pub-1175987143200523, RESELLER, f08c47fec0942fa0
 risecodes.com, 608fee2f84a3a300011acd3f, DIRECT
 ssp.cadent.com, 45, DIRECT, 1e1d41537f7cad7f
+yahoo.com, 100028, DIRECT, e1a5b5b6e3255540
 # 36
 lijit.com, 62299-eb, DIRECT, fafdf38b16bf6b2b
 indexexchange.com, 187973, DIRECT, 50b1c356f2c5c8fc
@@ -33,7 +34,6 @@ openx.com, 559783383, DIRECT, 6a698e2ec38604c6
 # 10017
 lijit.com, 62299, DIRECT, fafdf38b16bf6b2b
 # 10033
-yahoo.com, 55771, RESELLER, e1a5b5b6e3255540
 conversantmedia.com, 29686, DIRECT, 03113cd04947736d
 # 10048
 sonobi.com, f4e5b5299c, DIRECT, d1a215d9eb5aee9e
