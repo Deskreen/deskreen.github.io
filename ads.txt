@@ -87,6 +87,9 @@ yieldmo.com, 2834292204858450860, DIRECT
 # 11321
 33across.com, 0010b00002MpnPqAAJ, DIRECT, bbea06d9c4d2853c
 contextweb.com, 561516, RESELLER, 89ff185a4c4e857c
+appnexus.com, 10239, RESELLER, f5ab79cb980f11d1
+rubiconproject.com, 16414, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 21642, RESELLER, 0bfd66d529a55807
 # 11325
 pubmatic.com, 160295, RESELLER, 5d62403b186f2ace
 rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
