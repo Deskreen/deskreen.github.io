@@ -111,5 +111,8 @@ triplelift.com, 12465, RESELLER, 6c33edb13117fd86
 # 11335
 smartadserver.com, 4503-OB, DIRECT, 060d053dcf45cbf3
 smartadserver.com, 4503, DIRECT, 060d053dcf45cbf3
+pubmatic.com, 156439, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 16114, RESELLER, 0bfd66d529a55807
+openx.com, 537149888, RESELLER, 6a698e2ec38604c6
 # 21202
 google.com, pub-1242335592927484, DIRECT, f08c47fec0942fa0
