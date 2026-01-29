@@ -7,10 +7,10 @@ __turbopack_load_page_chunks__("/[localePref]/downloads-ce", [
   "static/chunks/91ee351d919a2f86.js",
   "static/chunks/568e6fb6a816414b.js",
   "static/chunks/d0534a99ba990c43.js",
-  "static/chunks/a6088ba521342f73.js",
+  "static/chunks/2894432a4c585f9a.js",
   "static/chunks/e014deb997666ad5.js",
   "static/chunks/1dda490c701c1e5d.js",
   "static/chunks/5d85c03bcffbd940.js",
   "static/chunks/e95b11a50f9a4bf5.js",
-  "static/chunks/turbopack-e8ee741cc183b943.js"
+  "static/chunks/turbopack-e0ef4d1024c67aa4.js"
 ])
