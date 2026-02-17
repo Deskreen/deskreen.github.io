@@ -1,6 +1,6 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/a0fbbc5abc25c289.js"
+    "static/chunks/7c5e65dbad64d721.js"
   ],
   "/404": [
     "static/chunks/2886b9b15bec0fe5.js"
@@ -9,7 +9,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/637498ea888b76a7.js"
   ],
   "/[localePref]": [
-    "static/chunks/afaa05c6684faacb.js"
+    "static/chunks/638269c45683f63b.js"
   ],
   "/[localePref]/500": [
     "static/chunks/460b29a4e1151b3b.js"
@@ -60,10 +60,10 @@ self.__BUILD_MANIFEST = {
     "static/chunks/7f2e79f408062c1a.js"
   ],
   "/[localePref]/privacy": [
-    "static/chunks/eb9d0ed41e54c3e9.js"
+    "static/chunks/8c3fd9717c773bcf.js"
   ],
   "/[localePref]/privacy-policy": [
-    "static/chunks/8f82008acf5ac39f.js"
+    "static/chunks/4446004218bb2654.js"
   ],
   "/[localePref]/purpose": [
     "static/chunks/83aa11a2bf4c530d.js"
@@ -126,10 +126,10 @@ self.__BUILD_MANIFEST = {
     "static/chunks/193beb3c6aba96f9.js"
   ],
   "/privacy": [
-    "static/chunks/69d61838a8c0c12f.js"
+    "static/chunks/7500f3d75aaa3184.js"
   ],
   "/privacy-policy": [
-    "static/chunks/a614bf23bfb637a4.js"
+    "static/chunks/a6b8bafc51a7add3.js"
   ],
   "/purpose": [
     "static/chunks/d312fa5b793eb563.js"

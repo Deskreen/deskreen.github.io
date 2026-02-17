@@ -4,12 +4,12 @@ __turbopack_load_page_chunks__("/[localePref]/privacy", [
   "static/chunks/9fd041f6875015ec.js",
   "static/chunks/4816348d760c9da2.js",
   "static/chunks/f854921583ee099f.js",
-  "static/chunks/7172cdda3d4180aa.js",
-  "static/chunks/6839a8c588969741.js",
-  "static/chunks/aebdc9ce0b2b4249.js",
-  "static/chunks/46792120f9822972.js",
   "static/chunks/5145d8f6210dbffd.js",
-  "static/chunks/4e104bda416d380a.js",
+  "static/chunks/6839a8c588969741.js",
   "static/chunks/50ea580405c9a2cc.js",
-  "static/chunks/turbopack-9b44bb5bd0a3dc48.js"
+  "static/chunks/46792120f9822972.js",
+  "static/chunks/7172cdda3d4180aa.js",
+  "static/chunks/4e104bda416d380a.js",
+  "static/chunks/aebdc9ce0b2b4249.js",
+  "static/chunks/turbopack-20b3d2919738fabb.js"
 ])
