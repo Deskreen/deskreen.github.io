@@ -1,6 +1,6 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/cf13fb368c3edf4d.js"
+    "static/chunks/f4e61ab5c4ad8838.js"
   ],
   "/404": [
     "static/chunks/efab0d542c8a2571.js"
@@ -9,7 +9,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/454592dc9cf6163f.js"
   ],
   "/[localePref]": [
-    "static/chunks/0402b2d69dd24fad.js"
+    "static/chunks/43bb6f294c4a7544.js"
   ],
   "/[localePref]/500": [
     "static/chunks/c126f795bc2a306d.js"
@@ -72,7 +72,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/ea42fe13c7bbb245.js"
   ],
   "/[localePref]/ui": [
-    "static/chunks/e0b6d627575b4bfa.js"
+    "static/chunks/30bc22628ba9dd10.js"
   ],
   "/[localePref]/watch/[videoId]": [
     "static/chunks/6019822c9db31d46.js"
@@ -141,7 +141,7 @@ self.__BUILD_MANIFEST = {
     "static/chunks/9fc98b88e092f6c4.js"
   ],
   "/ui": [
-    "static/chunks/f44122057c65f8d5.js"
+    "static/chunks/2f68ea5170146b72.js"
   ],
   "/watch/[videoId]": [
     "static/chunks/d0c21b02a586024d.js"
